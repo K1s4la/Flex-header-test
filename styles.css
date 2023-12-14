@@ -5,10 +5,21 @@
 .header{
 display:flex;
 border:1px solid black;
+font-family:monospace;
+background: papayawhip;
 }
-.left-links{
+.logo{
+    background-color:white;
+    font-size:48px;
+    color:tomato;
+}
+ul {
     display:flex;
-    flex-direction:row;
-    border:1px solid black;
-    justify-content:center;
+    list-style-type: none; /* this removes the bullet point*/
+
+}
+a{
+    font-size:22px;
+    background:white;
+    padding:5px;
 }
